@@ -1,1 +1,1 @@
-# d12306.github.io
+Jindong Wang's personal website. Please visit http://jd92.wang.
