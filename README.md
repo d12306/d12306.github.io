@@ -1,1 +1,1 @@
-Xuefeng Du's personal website. Please visit http://xf98.du.
+Xuefeng Du's personal website. Please visit https://d12306.github.io/.
