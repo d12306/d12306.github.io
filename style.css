@@ -40,6 +40,11 @@ body {
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   }
   
+  strong {
+	font-weight: bold;
+	color: #111;          /* darker color */
+	font-size: 1.05em;     /* slightly larger */
+  }
   /* Typography and layout */
   h1, h2 {
 	font-family: 'Roboto', sans-serif;
