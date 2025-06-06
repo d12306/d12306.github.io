@@ -21,12 +21,12 @@ body {
   }
   
   nav a {
-	color: white;
+	color: white!important;
 	margin-right: 1.2em;
 	text-decoration: none;
 	font-weight: bold;
   }
-  
+
   nav a:hover {
 	text-decoration: underline;
   }
@@ -63,6 +63,21 @@ body {
 	clear: both;
   }
   
+  a:link { 
+	color:#337ab7; 
+	text-decoration:none; 
+	} 
+	
+	a:hover { 
+	color:#337adf; 
+	text-decoration:underline; 
+	} 
+	
+	a:visited { 
+	color:#337ab7; 
+	text-decoration:none; 
+	} 
+	
   ul {
 	padding-left: 1.2em;
 	line-height: 1.6;
