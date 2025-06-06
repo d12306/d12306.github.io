@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('Roboto-Regular.woff2') format('woff2'),
+		 url('Roboto-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Merriweather';
+	src: url('Merriweather-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
