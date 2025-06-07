@@ -19,7 +19,32 @@ body {
 	max-width: 1200px;
 	margin: 0 auto;
   }
+  .nav-bar {
+	display: flex;
+	align-items: center; /* vertically center */
+	gap: 12px; /* space between links and icon */
+	flex-wrap: wrap; /* wrap on smaller screens */
+  }
   
+  .nav-links a {
+	margin-right: 12px; /* spacing between nav links */
+	text-decoration: none;
+	font-weight: 500;
+	/* font-family:  sans-serif; */
+	font-weight: bold;
+  }
+  
+  .nav-icon {
+	height: 30px; /* or whatever size fits best */
+  }
+  
+  .radio-lab-group {
+	display: inline-flex;
+	align-items: center;
+	gap: 0px; /* Adjust this value to control spacing */
+  }
+  
+
   nav a {
 	color: white!important;
 	margin-right: 1.2em;
@@ -30,6 +55,7 @@ body {
   nav a:hover {
 	text-decoration: underline;
   }
+ 
   
   /* Main content container */
   .container {
