@@ -43,7 +43,11 @@ body {
 	justify-content: space-between;
 	align-items: center;
   }
-  
+  .radio-lab-subtitle {
+	font-size: 1.1em;
+	color: #555;
+	margin-top: 5px;
+  }
   
   .lab-icon {
 	  height: 100px;
