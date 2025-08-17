@@ -3,12 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <title>Sean Du - Homepage</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/d12306/d12306.github.io@main/style.css" onerror="this.onerror=null;this.href='style.css'"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/d12306/d12306.github.io@main/fonts/fonts.css" onerror="this.onerror=null;this.href='fonts/fonts.css'"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="fonts/fonts.css">
   <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather&display=swap" rel="stylesheet"> -->
-<meta http-equiv="x-dns-prefetch-control" content="on">
-  <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 </head>
 <body>
   <div class="wrapper">
@@ -216,20 +213,5 @@
       <p><small>Last updated: June 2025</small></p>
     </div>
   </div>
-
-  <script>
-    (function () {
-      // Probe jsDelivr availability; if reachable, rewrite <a> with data-cdn-href to use CDN.
-      function enableCdnLinks() {
-        var links = document.querySelectorAll('a[data-cdn-href]');
-        links.forEach(function(a){ a.href = a.getAttribute('data-cdn-href'); });
-      }
-      var img = new Image();
-      img.onload = function(){ enableCdnLinks(); };
-      img.onerror = function(){ /* leave local hrefs */ };
-      img.src = "https://cdn.jsdelivr.net/gh/d12306/d12306.github.io@main/icon.png?_=" + Date.now();
-    })();
-  </script>
-
 </body>
 </html>
