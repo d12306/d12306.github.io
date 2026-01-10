@@ -12,6 +12,24 @@ body {
 	margin: 0 auto;
   }
   
+  /* Remove/avoid global centering on .name */
+  .name {
+	text-align: left;   /* or just delete the old text-align rule */
+  }
+  
+  /* Center only the name blocks inside person cards */
+  .person-card .name {
+	text-align: center;
+  }
+  
+  /* Make the affiliation smaller + centered + on new line (only inside cards) */
+  .person-card .name .aff {
+	display: block;
+	font-size: 0.85em;
+	line-height: 1.2;
+	text-align: center;
+  }
+
   /* Navigation bar */
   nav {
 	background: #e29c7a;
