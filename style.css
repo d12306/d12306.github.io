@@ -215,3 +215,14 @@ body {
     height: auto;
     display: block;
   }
+
+  /* Compact student/name lists */
+.name-list .name {
+	margin: 0.25rem 0;
+	line-height: 1.35;
+  }
+  
+  /* Slight spacing between sections */
+  .people-section {
+	margin-bottom: 1.5rem;
+  }
